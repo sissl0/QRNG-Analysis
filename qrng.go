@@ -28,7 +28,7 @@ func main() {
 		filename := args[2]
 		outDir := args[3]
 
-		bits := cmd.LoadBits(filename, cmd.LittleEndian)
+		bits := cmd.LoadBits(filename, cmd.BigEndian)
 
 		const SketchBits = 16
 
